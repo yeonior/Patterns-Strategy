@@ -13,6 +13,8 @@
 		A2DBDB3D27A85917003A9EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DBDB3B27A85917003A9EBD /* Main.storyboard */; };
 		A2DBDB3F27A85918003A9EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DBDB3E27A85918003A9EBD /* Assets.xcassets */; };
 		A2DBDB4227A85918003A9EBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DBDB4027A85918003A9EBD /* LaunchScreen.storyboard */; };
+		A2DBDB4A27A859F3003A9EBD /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBDB4927A859F3003A9EBD /* Filter.swift */; };
+		A2DBDB4C27A85A13003A9EBD /* FilterStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBDB4B27A85A13003A9EBD /* FilterStrategy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A2DBDB3E27A85918003A9EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2DBDB4127A85918003A9EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2DBDB4327A85918003A9EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DBDB4927A859F3003A9EBD /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		A2DBDB4B27A85A13003A9EBD /* FilterStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterStrategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				A2DBDB3527A85917003A9EBD /* AppDelegate.swift */,
 				A2DBDB3727A85917003A9EBD /* SceneDelegate.swift */,
+				A2DBDB4B27A85A13003A9EBD /* FilterStrategy.swift */,
+				A2DBDB4927A859F3003A9EBD /* Filter.swift */,
 				A2DBDB3927A85917003A9EBD /* ViewController.swift */,
 				A2DBDB3B27A85917003A9EBD /* Main.storyboard */,
 				A2DBDB3E27A85918003A9EBD /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2DBDB3A27A85917003A9EBD /* ViewController.swift in Sources */,
+				A2DBDB4A27A859F3003A9EBD /* Filter.swift in Sources */,
+				A2DBDB4C27A85A13003A9EBD /* FilterStrategy.swift in Sources */,
 				A2DBDB3627A85917003A9EBD /* AppDelegate.swift in Sources */,
 				A2DBDB3827A85917003A9EBD /* SceneDelegate.swift in Sources */,
 			);
